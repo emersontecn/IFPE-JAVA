@@ -7,37 +7,38 @@ package teste;
 
 class Shuffle1 {
 	public static void main (String [] args ){
-	int x = 3;
+		int x = 3;
+
+	while(x > 0) {
+
+		 if (x > 2)  {
+		    System.out.print("a");	
+
+		}
+
+		    x = x - 1;
+			System.out.print("-");
+		
+
+		if (x == 2){
+
+			System.out.print("b c");
+		}
+		
+
+		 x = x - 1;{
+			System.out.print("-");
+
+		}
 
 
-	 if (x > 2)  {
-	    System.out.print("a");	
+		if (x == 1)
+			System.out.print("d");
+			x = x -1;
+		}
 
 	}
-
-	    x = x - 1;
-		System.out.print("-");
-	
-
-	if (x == 2){
-
-		System.out.print("b c");
-	}
-	
-
-	 x = x - 1;{
-		System.out.print("-");
-
-	}
-
-
-	if (x == 1)
-		System.out.print("d");
-		x = x -1;
-	}
-
 }
-
 
 Questão 2
 
@@ -46,50 +47,103 @@ A---
 
 class Exercise1a{
 
-public static void main (String[] args){
-int x = 1;
-while (x > 10){
-  x = x + 1;
-       if (x > 3){
-       System.out.println("big x");
-      }
-    }
-  }
-}
-
-
+public class exercicio {
+	public static void main (String[] args){
+		int x = 11;
+		while (x > 10){
+		  x = x - 1;
+		       if (x > 3){
+		       System.out.println("big x");
+		      }
+		    }
+		  }
+		}
 
 
 B----
 
 public static void main(String [] args ){
-int x=5;
-while (x > 1) {
-    if ( x < 3 ){
-     System.out.print("small x");
-    }else x = x - 1;
-  }
-}
+		int x=5;
+		while (x > 1) {
+			x = x - 2;
+		    if ( x < 3 ){
+		     System.out.print("small x");
+		  }
+	     }
+	}
+   }
 
 
 C---
 
 	 
-class Exercise1c{
-int x = 5;
-while ( x > 1 ){
-x = x -1;
-     if (x < 3){
-     System.out.println("small x");
-    }
-  }
-}
-    
+public static void main(String [] args ){
+		int x=5;
+		while (x > 1) {
+			x = x - 1;
+		    if ( x < 3 ){
+		     System.out.print("small x");
+		  }
+		}
+  	     }
+          }
+
 	
 Questão 3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Questão 4
+
+class PoolPuzzleOne {
+ public static void main(String [] args){
+      int x = 0;
+       while(x < 1) {
+
+
+		if( x < 1){
+		System.out.print("a ");
+		}
+			
+			
+		x = x + 2 ;
+			
+			
+		if(x > 1){
+		System.out.print("noise \n");
+		}
+			
+		x = x -1;
+			
+			
+		if (x == 1){
+		System.out.print("annoys \n");
+		}
+			
+			
+		if(x > 0){
+		System.out.print("an ");
+		}
+			
+			
+		System.out.println("oyster");
+		}
+			
+      }
+}
 
 
 	
