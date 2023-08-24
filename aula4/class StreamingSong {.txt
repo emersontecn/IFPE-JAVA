@@ -1,0 +1,131 @@
+
+A-----------
+
+class StreamingSong {
+Public static void main (string[]args){
+
+ String title;
+ String artis;
+ Int duration;
+
+ Void play(){
+ System.out.println("Playing song");
+}
+
+ Void printDetails(){
+ System.out.println ("This is" +"title + "by" + artist);
+
+}
+
+ class StreaningSongTestDrive{
+
+ Song.artist = "The beatles";
+ Song.title= "Come together";
+ Son.play();
+ Song.printDetails();
+}
+}
+
+
+
+
+
+
+B-----------
+
+
+class Episode (
+( public static void main(String[] args) {
+
+int seriesNumber:
+
+int episodeNumber:
+
+
+void skipIntro ()
+
+System.out.println("Skipping intro...");
+
+}
+
+void skipToNext()
+
+System.out.println("Loading next episode...");
+
+}
+}
+
+
+class EpisodeTestDrive{
+
+
+Episode episode = new Episode();
+
+episode.seriesNumber = 4;
+
+episode.play();
+
+episode.skipIntro():
+}
+}
+
+
+
+c-----------
+
+
+class DrumKit {
+public static void main (String [] args) {
+
+boolean tophat = true;
+boolean snare = true;
+Drumkit d = new DrumKit()
+
+
+void playSnare () {
+	system.out.println("bang bang da-bang");
+}
+
+
+
+void playTopHat () {
+	system.out.println("ding ding da-ding");
+}
+
+class DrumKItTestDrive{
+
+if (d.snare == true) {
+	d.PlaySnare();
+
+
+}
+}
+
+
+
+d-----------
+
+public class EchoTestDrive{
+  public static void main (String [] args) {
+  Echo e1 = new Echo();
+  ________________________________
+ int x = 0;
+whute (_________) {
+  e1.hello();
+  ________________________________
+ 
+  if (___________) {
+  e2.count = e2.count = 1;
+}
+
+if (____________){
+ e2.count = e2.count = e1.count;
+}
+x = x + 1;
+}
+System.out.println(e2.count);
+}
+}
+
+
+
