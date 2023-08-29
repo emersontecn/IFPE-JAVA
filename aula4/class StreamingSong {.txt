@@ -1,4 +1,8 @@
 
+Dupla= Eduarda e Émerson
+
+1-----------
+
 A-----------
 
 class StreamingSong {
@@ -23,6 +27,7 @@ Public static void main (string[]args){
  Song.title= "Come together";
  Son.play();
  Song.printDetails();
+
 }
 }
 
@@ -71,39 +76,45 @@ episode.skipIntro():
 
 
 
-c-----------
+2-----------
 
 
 class DrumKit {
 public static void main (String [] args) {
-
-boolean tophat = true;
-boolean snare = true;
-Drumkit d = new DrumKit()
-
-
-void playSnare () {
-	system.out.println("bang bang da-bang");
+	boolean tophat = true;
+	boolean snare = true;
+	
+	class DrumKit {
+			
+		DrumKit d = new DrumKit();
+			
+		void playSnare() {
+			System.out.print("bang bang ba-bang");
+		}
+			
+		void playTopHat() {
+			System.out.print("ding ding da-ding");
+		}
+		
+		class DrumKitTestDrive{
+			
+			if (d.snare == true) {
+				d.playSnare();
+			}
+				
+			d.snare = false;
+				
+			if (d.snare == false) {
+				d.playTopHat();
+			};
+				
+			
+		}
+	   }
+     }
 }
 
-
-
-void playTopHat () {
-	system.out.println("ding ding da-ding");
-}
-
-class DrumKItTestDrive{
-
-if (d.snare == true) {
-	d.PlaySnare();
-
-
-}
-}
-
-
-
-d-----------
+3-----------
 
 public class EchoTestDrive{
   public static void main (String [] args) {
