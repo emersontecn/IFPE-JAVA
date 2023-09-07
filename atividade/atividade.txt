@@ -1,0 +1,165 @@
+
+Q1 B
+Q2 ok
+Q3 //
+Q4 Pela Metade
+Q5 ok
+
+Questão 1___________________________________________________________
+
+A
+package books;
+
+public class Books{
+
+	String title;
+	String author;
+	
+	public static void main(String[] args) {
+
+	
+		class BooksTestDrive{
+	
+			int x = 0;
+			Books[] myBooks = new Books[6];
+			myBooks[0]  = "The Grapes of Java";
+			myBooks[1] = "The java Gatsby";
+			myBooks[2]  = "The java Cookbook";
+			myBooks[0] = "bob";
+			myBooks[1] = "sue";
+			myBooks[2] = "ian";				
+
+			while (x < 3) {
+				System.out.println(myBooks[x].title);
+				System.out.println(" by ");
+				System.out.println(myBooks[x].author);
+				x = x + 1;
+			}
+
+		
+		}
+
+	}
+
+}
+
+
+B
+
+
+package hobbit;
+
+public class Hobbits {
+
+	String name;
+	
+	public static void main(String[] args) {
+		
+		Hobbits[] h = new Hobbits[4];
+		int z = 0;
+
+		
+		while (z < 3) {
+			z = z + 1;
+			h[z] = new Hobbits();
+			h[z].name = "bilbo";
+			if (z==1) {
+				h[z].name = "frodo";
+			}
+			
+			if (z==2) {
+				h[z].name = "sam";
+			}
+			System.out.println(h[z].name + " is a ");
+			System.out.println("good Hobbit name");
+		}
+	}
+}
+
+
+
+
+
+Questão 2___________________________________________________________
+
+package array;
+
+public class TestArrays {
+
+	public static void main(String[] args) {
+
+		String [] islands = new String[4];
+		islands[0] = "bermuda";
+		islands[1] = "fiji";
+		islands[2] = "Azores";
+		islands[3] = "Cozumel";
+		
+		int [] index = new int[4];
+		index[0] = 1;
+		index[1] = 3;
+		index[2] = 0;
+		index[3] = 2;
+		
+		int ref;
+		int y = 0;
+		
+		while (y < 4) {
+			ref = index[y];
+			y = y + 1;
+			
+			System.out.print("island = ");
+			System.out.println(islands[ref]);
+			
+		}
+		
+	}
+
+}
+
+Questão 3___________________________________________________________
+
+
+Questão 4___________________________________________________________
+
+package quiz;
+
+public class HeapQuiz {
+	int id = 0;
+	
+	public static void main(String[] args) {
+		int x = 0;
+		HeapQuiz[] hq = new HeapQuiz[5];
+		while (x < 3) {
+			hq[x]= new HeapQuiz();
+			hq[x].id = x;
+			x = x + 1;
+		}
+		
+		//hq[3] = hq [1];
+		hq[4] = hq [1];
+		hq[3] = null;
+		//hq[4] = hq [0];
+		//hq[0] = hq [3];
+		hq[3] = hq [2];
+		hq[2] = hq [0];
+		
+		System.out.println(hq[0]);
+		System.out.println(hq[1]);
+		System.out.println(hq[2]);
+		System.out.println(hq[3]);
+		System.out.println(hq[4]);
+
+	}
+
+
+
+Questão 5___________________________________________________________
+	
+ A primeira é a mais versatio, pois em uma unica variavel(array) os contatos são alocados em espaços delimitados.
+ja a segunda,não usa array,criando assim varios objetos,gastando bem mais memoria e sendo bem menos pratico. 
+
+}
+
+
+
+
