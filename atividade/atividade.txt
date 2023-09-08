@@ -15,21 +15,23 @@ public class Books{
 	String title;
 	String author;
 	
+
 	public static void main(String[] args) {
 
+	int x = 0;
 	
-		class BooksTestDrive{
-	
-			int x = 0;
-			Books[] myBooks = new Books[6];
-			myBooks[0]  = "The Grapes of Java";
-			myBooks[1] = "The java Gatsby";
-			myBooks[2]  = "The java Cookbook";
-			myBooks[0] = "bob";
-			myBooks[1] = "sue";
-			myBooks[2] = "ian";				
-
-			while (x < 3) {
+		class BookTestDrive{
+			
+		    Books[] myBooks   =  new Books[10];
+			myBooks[1].title  = "The Grapes of Java";
+			myBooks[2].title  = "The java Gatsby";
+			myBooks[3].title  = "The java Cookbook";
+			myBooks[4].author = "bob";
+			myBooks[5].author = "sue";
+			myBooks[6].author = "ian";
+			
+		
+			while (x < 4) {
 				System.out.println(myBooks[x].title);
 				System.out.println(" by ");
 				System.out.println(myBooks[x].author);
