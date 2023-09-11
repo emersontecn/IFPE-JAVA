@@ -1,5 +1,5 @@
 
-Q1 B
+Q1 ok
 Q2 ok
 Q3 //
 Q4 Pela Metade
@@ -10,41 +10,76 @@ Questão 1___________________________________________________________
 A
 package books;
 
+package books;
+
 public class Books{
 
 	String title;
 	String author;
-	
 
+
+	
 	public static void main(String[] args) {
+			int x = 0;
 
-	int x = 0;
 	
-		class BookTestDrive{
 			
-		    Books[] myBooks   =  new Books[10];
-			myBooks[1].title  = "The Grapes of Java";
+			
+			Books books = new Books();
+			Books[] myBooks   =  new Books[10];
+			
+			
+			myBooks[0].title  = "The Grapes of Java";
 			myBooks[2].title  = "The java Gatsby";
 			myBooks[3].title  = "The java Cookbook";
 			myBooks[4].author = "bob";
 			myBooks[5].author = "sue";
 			myBooks[6].author = "ian";
-			
-		
+
+
 			while (x < 4) {
+				
 				System.out.println(myBooks[x].title);
 				System.out.println(" by ");
 				System.out.println(myBooks[x].author);
 				x = x + 1;
 			}
 
-		
+
 		}
 
 	}
 
-}
 
+A( que deu certo)
+package books;
+
+public class Books{
+
+	public static void main(String[] args) {
+		
+		
+			String [] myBooks = new String [10];
+	
+			myBooks[0] = "The Grapes of Java";
+			myBooks[1] = "The java Gatsby";
+			myBooks[2] = "The java Cookbook";
+			myBooks[3] = "bob";
+			myBooks[4] = "sue";
+			myBooks[5] = "ian";
+
+			int x = 0;
+			while (x < 6) {
+				
+				System.out.println(myBooks[x]);
+				
+				x = x + 1;
+			}
+
+
+		}
+
+	}
 
 B
 
@@ -119,6 +154,89 @@ public class TestArrays {
 }
 
 Questão 3___________________________________________________________
+
+package triangulo;
+
+public class Triangle {
+
+	double area;
+	int height;
+	int length;
+
+	public static void main(String[] args) {
+		int x = 0;
+		
+		Triangle [] ta = new Triangle [4];
+		ta[x] = new Triangle();
+		
+		
+		while(x < 5) {
+			ta[x].height = (x + 1) * 2;
+			ta[x].length = x + 4;
+
+			System.out.println("triangle" + x + ",area");
+			System.out.println(" = " ta[x].area);
+		}
+
+		x = 27;
+		Triangle t5 = ta[2];
+		ta[2].area = 343;
+		System.out.println(", t5 area = " + t5.area);
+	}
+
+	void setArea() {
+		= (height * length) /2;
+	}
+
+}
+
+Questão 3 (teste)
+
+package triangulo;
+
+public class Triangle {
+
+	double area;
+	int height;
+	int length;
+
+	public static void main(String[] args) {
+		int x = 0;
+		
+		//criando o array //
+		Triangle [] ta = new Triangle [4];
+		
+		while(x < 4 ) {
+			
+			
+		//criando os triangulos //
+		ta[x]= new Triangle();
+			
+			
+			
+			ta[x].height = (x + 1) * 2;
+			ta[x].length = x + 4;
+
+			System.out.println("triangle " + x + ",area = "  + ta[x].area);
+			x = x + 1;
+			
+			
+		}
+		
+		x = 27;
+		Triangle t5 = ta[2];
+		ta[2].area = 343;
+		System.out.println(", t5 area = " + t5.area);
+		
+			
+	} 
+
+	void setArea() {
+		
+		area = (height * length ) /2;
+	}
+
+}
 
 
 Questão 4___________________________________________________________
