@@ -2,7 +2,7 @@
 Q1 ok
 Q2 ok
 Q3 //
-Q4 Pela Metade
+Q4 ok
 Q5 ok
 
 Questão 1___________________________________________________________
@@ -263,15 +263,17 @@ public class HeapQuiz {
 		hq[3] = hq [2];
 		hq[2] = hq [0];
 		
-		System.out.println(hq[0]);
+		/*System.out.println(hq[0]);
 		System.out.println(hq[1]);
 		System.out.println(hq[2]);
 		System.out.println(hq[3]);
-		System.out.println(hq[4]);
+		System.out.println(hq[4]);*/
 
 	}
+	
 
 
+}
 
 Questão 5___________________________________________________________
 	
